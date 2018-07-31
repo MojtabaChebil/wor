@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="optionbar" style="display:flex; height:85%;">
+ 
+<div>
+<select id="textarea" onchange="myv();"style="height:30px">
+ <option>Georgia</option>
+  <option>Palatino Linotype</option>
+  <option>Book Antiqua</option>
+  <option>Times New Roman</option>
+  <option>Arial</option>
+  <option>Helvetica</option>
+  <option>Arial Black</option>
+  <option>Impact</option>
+  <option>Lucida Sans Unicode</option>
+  <option>Tahoma</option>
+  <option>Verdana</option>
+  <option>Courier New</option>
+  <option>Lucida Console</option>
+</select>
+</div>
+<div>
+<select id="textsize"style="height:30px" onchange="changesize()">
+  <option value="10px">10</option>
+  <option value="11px">11</option>
+  <option value="12px">12</option>
+  <option value="13px">13</option>
+  <option value="14px">14</option>
+  <option value="15px">15</option>
+  <option value="16px">16</option>
+  <option value="20px">20</option>
+  <option value="30px">30</option>
+  <option value="40px">40</option>
+  <option value="50px">50</option>
+  <option value="60px">60</option>
+  <option value="70px">70</option>
+  <option value="80px">80</option>
+  <option value="90px">90</option>
+  <option value="100px">100</option>
+</select>
+<input type="color" name="f1" onchange="changecolor()" id="cc">
+</div>
+<div>
+<button  type="button" onclick="myi()" style="height: 30px; width: 35px; margin-left: 4px" ><img src="C:\Users\hp-i5\Desktop\chekpoint3\res\icons8_Italic_48px.png" width="25px" height="25px" ></button>
+ 
+<button type="button" onclick="myg1()"style="height: 30px; width: 40px;"><img src="C:\Users\hp-i5\Desktop\chekpoint3\res\icons8_Google_50px.png" width="25px" height="25px"></button>
+<button type="button" onclick="myu()"style="height: 30px; width: 40px;"><img src="C:\Users\hp-i5\Desktop\chekpoint3\res\icons8_Underline_50px.png" width="25px" height="25px"></button>
+<button type="button" onclick="myc()"style="height: 30px; width: 40px;"><img src="C:\Users\hp-i5\Desktop\chekpoint3\res\icons8_Align_Center_50px.png" width="25px" height="25px"></button>
+<button type="button" onclick="myg()"style="height: 30px; width: 40px;"><img src="C:\Users\hp-i5\Desktop\chekpoint3\res\icons8_Align_Text_Left_50px_1.png" width="25px" height="25px"></button>
+<button type="button" onclick="myd()"style="height: 30px; width: 40px;"><img src="C:\Users\hp-i5\Desktop\chekpoint3\res\icons8_Align_Text_Right__50px.png" width="25px" height="25px"></button>
+</div>
+</div>
+<br>
+<br>
+<br>
+<center>
+<div id="text" >
+<textarea id="myP" style="padding-left: 40px;padding-bottom: 480px;height: 50px;width: 800px;"></textarea>
+</div>
+</center>
+</body>
+<script src="js/main.js"></script>
+</html>

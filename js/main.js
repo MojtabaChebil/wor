@@ -48,3 +48,12 @@ function myd() {
 function myg() {
     document.getElementById("myP").style.textAlign = "left";
 }
+var x = document.getElementById("myAudio"); 
+
+function playAudio() {
+    x.play(); 
+
+}
+function pauseAudio() { 
+    x.pause(); 
+} 

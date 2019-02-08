@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onkeypress ="playAudio()">
 <div id="optionbar" style="display:flex; height:85%;">
  
 <div>
@@ -51,6 +51,10 @@
 <button type="button" onclick="myc()"style="height: 30px; width: 40px;"><img src="res\icons8_Align_Center_50px.png" width="25px" height="25px"></button>
 <button type="button" onclick="myg()"style="height: 30px; width: 40px;"><img src="res\icons8_Align_Text_Left_50px_1.png" width="25px" height="25px"></button>
 <button type="button" onclick="myd()"style="height: 30px; width: 40px;"><img src="res\icons8_Align_Text_Right__50px.png" width="25px" height="25px"></button>
+<audio id="myAudio">
+  <source src="res/de.mp3" type="audio/mp3">
+  <source src="res/de.ogg" type="audio/ogg">
+</audio>
 </div>
 </div>
 <br>
